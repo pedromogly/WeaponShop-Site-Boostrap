@@ -1,0 +1,35 @@
+.bg-image {
+    background: url('img/capa.jpg');
+}
+
+.title {
+    backdrop-filter: blur(3px);
+    padding-top: 50px;
+    height: 150px;
+    background-color: rgba(197, 181, 89, 0.342);
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    border: darkturquoise;
+}
+
+main {
+    background-color: dimgray;
+}
+
+.card {
+    display: flex;
+    margin: 20px;   
+}
+
+.card-img-top {
+    display: flex;
+}
