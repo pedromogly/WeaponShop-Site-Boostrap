@@ -27,9 +27,19 @@ main {
 
 .card {
     display: flex;
-    margin: 20px;   
+    margin: 20px;
+    
+    animation: openLabel 2s;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
 }
 
-.card-img-top {
-    display: flex;
+@keyframes openLabel {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    } to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
 }
